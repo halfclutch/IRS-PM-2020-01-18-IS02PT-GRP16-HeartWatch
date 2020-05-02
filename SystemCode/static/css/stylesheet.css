@@ -1,0 +1,99 @@
+
+.container {
+  position: relative;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.landing-section {
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+}
+
+.landing-main-text {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+.brand-text {
+    color: white
+}
+
+.fieldset {
+    font-family: 'Concert One', cursive;
+}
+
+.row {
+    color: black
+}
+
+.form-layout {
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-top: 20px;
+
+}
+
+.button {
+  right: 0px;
+  margin: 20px;
+  align: right
+}
+
+input#id_old_peak.numberinput.form-control, input#id_max_heart_beat.numberinput.form-control,
+input#id_age.numberinput.form-control, input#id_chol.numberinput.form-control,input#id_trestbps.numberinput.form-control,
+input#id_age.numberinput.form-control, input#id_chol.numberinput.form-control,input#id_trestbps.numberinput.form-control,
+div.custom-control.custom-radio {
+  background: #D8D8D8;
+  width: 400px
+}
+
+label.requiredField {
+  background: #ADD8E6;
+  width: 400px
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url(image_background.jpg);
+  height: 180%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+div.buttonHolder {
+    position: relative;
+    right: -300px;
+    top:  -30px
+}
+
+footer.text-center.py-3 {
+    background: lightgray
+}
+
+table, th, td {
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-top: 0px;
+
+}
+
+.predict {
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.graphic {
+    margin-right: 100px;
+    padding-right: 100px;
+}

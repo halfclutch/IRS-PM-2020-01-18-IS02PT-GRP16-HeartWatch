@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heart Disease Prediction</title>
+    {% load static %}
+    {% load crispy_forms_tags %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+<img src="{% static '/image_02.jpeg' %}">
+<section class="landing-section">
+  <div class="landing-section-content">
+    <h2>
+      <span class="brand-text">HeartWatch</span>
+    </h2>
+    <p class="landing-main-text">
+      AI Enabled Prediction System
+      <br>
+      Your trusted diagnosis platform...
+    </p>
+  </div>
+</section>
+</div>
+<div class="form-layout">
+    {% crispy form %}
+</div>
+</body>
+<footer class="text-center py-3">Copyright@2020 HeartWatch Inc. All rights reserved.</footer>
+</html>
+

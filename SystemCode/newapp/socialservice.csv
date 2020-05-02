@@ -1,0 +1,19 @@
+program,age,citizenship ,household_income,annual_value,pioneer_merdeka,ethnic_group,support_type,medisave_balance ,medishield,three_ADL
+Medishield/Medicare,0,1,1000000,1000000,0,NA,"a,b,c,d",0,1,0
+Medisave,0,1,1000000,1000000,0,NA,"a,b,c,d",1,0,0
+CHAS,0,2,1000000,1000000,0,NA,"a,b",0,0,0
+Eldershield,40,1,1000000,1000000,0,NA,"c,d",0,0,3
+MediFund,0,2,1000000,1000000,0,NA,"a,b,c,d",0,0,0
+Subsidies for Services & Drugs,0,1,1000000,1000000,0,NA,"a,b",0,0,0
+Interim Disability Assistance Programme for the Elderly,87,2,2800,13000,0,NA,"c,d",0,0,3
+Senior Mobility And Enabling Fund,60,1,2000,13000,0,NA,"c,d",0,0,0
+Caregiver Training Grant,65,1,1000000,1000000,0,NA,g,0,0,0
+ElderFund,30,2,1200,1000000,0,NA,"c,d",0,0,3
+Home Caregiving Grant,0,1,2800,13000,0,NA,g,0,0,3
+Subsidies for Govern Funded Intermediate Long Term Care,0,1,2800,1000000,0,NA,"c,d",0,0,0
+Pioneer Generation Package,70,2,1000000,1000000,1,NA,"a,b",0,0,0
+Merdeka Generation Package,60,2,1000000,1000000,1,NA,"a,b",0,0,0
+Geriatric Special Care Dentistry Clinic,0,1,1000000,1000000,0,NA,e,0,0,0
+ComCare Long Term Assistance,0,1,1000000,1000000,0,NA,f,0,0,0
+ComCare Urgent Financial Assistance,0,1,1900,1000000,0,NA,f,0,0,0
+ComCare Short to Medium Term Assistance,0,1,1000000,1000000,0,NA ,f,0,0,0
