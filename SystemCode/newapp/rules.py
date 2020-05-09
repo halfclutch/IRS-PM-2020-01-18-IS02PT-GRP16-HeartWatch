@@ -2,6 +2,9 @@ from experta import *
 
 def return_scheme(useranswers):
 
+    #for row in listofrules:
+
+
     class User(Fact):  # Facts from user input
         cp = Field(int)
         max_heart_beat = Field(int)
@@ -23,7 +26,7 @@ def return_scheme(useranswers):
               AS.v << User(data__max_heart_beat=MATCH.data__max_heart_beat), TEST(lambda data__max_heart_beat: int(data__max_heart_beat) > 160))
         def rule1(self):
             self.prediction = False
-            self.CF_medical = 1
+            self.CF_medical = 0
             self.rule = 1
 
         @Rule(AS.v << User(data__thal=MATCH.data__thal), TEST(lambda data__thal: int(data__thal) == 3 ),
@@ -31,7 +34,7 @@ def return_scheme(useranswers):
               AS.v << User(data__max_heart_beat=MATCH.data__max_heart_beat), TEST(lambda data__max_heart_beat: int(data__max_heart_beat) <= 160))
         def rule2(self):
             self.prediction = False
-            self.CF_medical = 0.82
+            self.CF_medical = 0.17
             self.rule = 2
 
         @Rule(AS.v << User(data__thal=MATCH.data__thal), TEST(lambda data__thal: int(data__thal) == 3 ),
@@ -39,7 +42,7 @@ def return_scheme(useranswers):
               AS.v << User(data__major_vessels=MATCH.data__major_vessels), TEST(lambda data__major_vessels: int(data__major_vessels) == 0))
         def rule3(self):
             self.prediction = False
-            self.CF_medical = 0.81
+            self.CF_medical = 0.19
             self.rule = 3
 
         @Rule(AS.v << User(data__thal=MATCH.data__thal), TEST(lambda data__thal: int(data__thal) == 3 ),
@@ -63,7 +66,7 @@ def return_scheme(useranswers):
               AS.v << User(data__major_vessels=MATCH.data__major_vessels), TEST(lambda data__major_vessels: int(data__major_vessels) == 0))
         def rule6(self):
             self.prediction = False
-            self.CF_medical = 0.69
+            self.CF_medical = 0.31
             self.rule = 6
 
         @Rule(AS.v << User(data__thal=MATCH.data__thal),
