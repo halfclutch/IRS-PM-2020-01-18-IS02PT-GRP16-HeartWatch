@@ -1,8 +1,7 @@
 National University of Singapore
 Intelligent Systems Masters Course Project
 
-Heart Watch
-A diagnostic application for Cardiovascular Diseases
+Heart Watch : A diagnostic application for Cardiovascular Diseases
 
 Members
 Pee Kian Soon (A0213510B)
