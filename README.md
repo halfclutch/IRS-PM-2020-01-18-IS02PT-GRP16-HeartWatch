@@ -24,7 +24,7 @@ A short questionnaire designed from rules derived from a historical dataset of C
 
 ---
 
-## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 4 : VIDEO
 <div align="center">
   <a href="https://youtu.be/O6raSNGez20">
     <img src="https://img.youtube.com/vi/O6raSNGez20/0.jpg">
