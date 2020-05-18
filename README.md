@@ -37,13 +37,13 @@ A short questionnaire designed from rules derived from a historical dataset of C
 
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
-Supported Browsers
+<b>Supported Browsers</b>
 
 •	Firefox 76
 •	IE 11
 •	Google Chrome 81
 
-1.2	Backend Dependencies (Packages)
+<b>Backend Dependencies (Packages)</b>
 
 The system runs on Django – a Python-based free and open-source web framework. To run the system successfully, some basic packages are required with the latest version of Python 3 (i.e. 3.82).
 
@@ -51,7 +51,7 @@ The system runs on Django – a Python-based free and open-source web framework.
 •	pip install django-crispy-forms
 •	pip install experta
 
-Deploy in Local Machine
+<b>Deploy in Local Machine</b>
 
 Open the command prompt terminal and change the working directory to "mysite". Please ensure that all required dependencies as mentioned earlier are successfully installed before proceeding else you will end with build failures.
 
@@ -61,14 +61,13 @@ Open the command prompt terminal and change the working directory to "mysite". P
   </a>
 </div>
 
-Run the command "python manage.py runserver" in the command prompt. You should 
+Run the command "python manage.py runserver" in the command prompt. You should see the following output on the command prompt.
 
 <div align="center">
   <a href="https://youtu.be/gvstrhI8Fkg">
     <img src="https://img.youtube.com/vi/gvstrhI8Fkg/0.jpg" alt="EKGS Project Video">
   </a>
 </div>
-see the following output on the command prompt.
 
 Open a web brower to access the URL "http://127.0.0.1.8000/ to start using the App
 
