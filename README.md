@@ -26,8 +26,8 @@ A short questionnaire designed from rules derived from a historical dataset of C
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 <div align="center">
-  <a href="https://youtu.be/gvstrhI8Fkg">
-    <img src="https://img.youtube.com/vi/gvstrhI8Fkg/0.jpg" alt="EKGS Project Video">
+  <a href="https://youtu.be/O6raSNGez20">
+    <img src="https://img.youtube.com/vi/O6raSNGez20/0.jpg">
   </a>
 </div>
 
