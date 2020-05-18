@@ -56,16 +56,14 @@ The system runs on Django – a Python-based free and open-source web framework.
 Open the command prompt terminal and change the working directory to "mysite". Please ensure that all required dependencies as mentioned earlier are successfully installed before proceeding else you will end with build failures.
 
 <div align="center">
-  <a href="https://youtu.be/gvstrhI8Fkg">
-    <img src="https://img.youtube.com/vi/gvstrhI8Fkg/0.jpg" alt="EKGS Project Video">
+    <img src="syscode.png">
   </a>
 </div>
 
 Run the command "python manage.py runserver" in the command prompt. You should see the following output on the command prompt.
 
 <div align="center">
-  <a href="https://youtu.be/gvstrhI8Fkg">
-    <img src="https://img.youtube.com/vi/gvstrhI8Fkg/0.jpg" alt="EKGS Project Video">
+    <img src="prompt.png">
   </a>
 </div>
 
